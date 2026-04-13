@@ -8,3 +8,9 @@ Summary: hw_3
 # буквы h на букву H, кроме первого и последнего вхождения.
 # Подсказка: использовать метод replace с параметрами.
 # Например, дано: ‘hhhabchghhh’, должно быть: ‘hHHabcHgHHh’
+
+original_str: str = "hhhabchghhh"
+modified_str = original_str[0] + original_str[1:-1].replace("h", "H") + original_str[-1]
+print(
+    f"На вход была подана строка {original_str}, в которой были заменены символы {modified_str}."
+)

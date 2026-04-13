@@ -9,4 +9,6 @@ Summary: hw_3
 # ‘Hello world’, ‘a b c’, ‘test’, ‘test1 test2 test3 test4 test5’).
 # Определите, сколько в ней слов.
 
-some_list: list = "'Hello world’, ‘a b c’, ‘test’, ‘test1 test2 test3 test4 test5'"
+some_str: str = "Hello world, a b c, test, test1 test2 test3 test4 test5"
+some_list = len(some_str.split())
+print(f"На вход подана строка {some_str}\nВ ней содержится {some_list} слов.")
