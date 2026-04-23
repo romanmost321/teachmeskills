@@ -15,11 +15,6 @@ b = float(input("Введите b = "))
 x = float(input("Введите x = "))
 
 
-# print(round(pow(a, 2) / 3, 2))
-# print(round((pow(a, 2) + 4) / b, 2))
-# print(round((sqrt(pow(a, 2) + 4)) / 4, 2))
-# print(round(sqrt(pow((pow(a, 2) + 4), 3)) / 4, 2))
-
 print(
     f"\tTask a: y = {round((round(pow(a, 2) / 3, 2)) + (round((pow(a, 2) + 4) / b, 2)) + 
                      (round((sqrt(pow(a, 2) + 4)) / 4, 2)) + (round(sqrt(pow((pow(a, 2) + 4), 3)) / 4, 2)), 2)}"
